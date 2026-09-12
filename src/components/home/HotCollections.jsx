@@ -36,11 +36,13 @@ const HotCollections = () => {
     prevArrow: (
       <button type="button" className="slick-prev">
         <i className="fa fa-angle-left"></i>
+        <span className="sr-only">Previous slide</span>
       </button>
     ),
     nextArrow: (
       <button type="button" className="slick-next">
         <i className="fa fa-angle-right"></i>
+        <span className="sr-only">Next slide</span>
       </button>
     ),
     responsive: [
