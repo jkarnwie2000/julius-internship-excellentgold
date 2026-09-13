@@ -21,7 +21,7 @@ const Nav = () => {
               <div className="de-flex-col">
                 <div className="de-flex-col">
                   <div id="logo">
-                    <Link to="/">
+                    <Link to="/" aria-label="Go to home page">
                       <img alt="" className="logo-2" src={Logo} />
                     </Link>
                   </div>

@@ -1329,8 +1329,8 @@ footer.footer-black {
   background: #222222;
 }
 
-footer h5,
-.de_light footer h5 {
+footer h2,
+.de_light footer h2 {
   color: #fff;
   font-size: 18px;
   text-transform: none;
@@ -3680,7 +3680,7 @@ h6,
 .h4,
 .h5,
 .h6,
-footer.footer-light h5 {
+footer.footer-light h2 {
   margin-top: 0;
   font-family: var(--title-font);
   font-weight: 700;
@@ -3707,7 +3707,7 @@ footer h1,
 footer h2,
 footer h4,
 footer h4,
-footer h5,
+footer h2,
 footer h6 {
   color: #fff;
 }
@@ -3715,7 +3715,7 @@ footer h6 {
 h2.text-light,
 footer h4,
 footer h4,
-footer h5,
+footer h2,
 footer h6 {
   color: #fff;
 }
@@ -9901,7 +9901,7 @@ footer .widget_recent_post li a {
   color: #ccc;
 }
 
-footer .widget h5 {
+footer .widget h2 {
   margin-bottom: 20px;
 }
 
@@ -13720,9 +13720,9 @@ a.read_more i {
 
 .nft__item_price {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 700;
   display: block;
-  color: #595959;
+  color: #000000;
 }
 
 .nft__item_price span {
@@ -13757,8 +13757,9 @@ a.read_more i {
 }
 
 .nft__item_like span {
-  color: #808080;
+  color: #000000;
   margin-left: 5px;
+  font-weight: 700;
   font-size: 12px;
 }
 

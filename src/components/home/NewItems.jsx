@@ -81,7 +81,7 @@ const NewItems = () => {
               <div className="small-border bg-color-2"></div>
             </div>
           </div>
-          <Slider {...settings} className="collections-carousel">
+          <Slider {...settings} infinite={false} className="collections-carousel">
             {loading
               ? new Array(4).fill(0).map((_, index) => (
                   <div className="newitems" key={index}>

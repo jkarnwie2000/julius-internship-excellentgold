@@ -84,7 +84,7 @@ const HotCollections = () => {
               <div className="small-border bg-color-2"></div>
             </div>
           </div>          
-          <Slider {...settings} className="collections-carousel">
+          <Slider {...settings} infinite={false} className="collections-carousel">
             {loading
               ? new Array(4).fill(0).map((_, index) => (
                   <div className="hotcollections" key={index}>
@@ -102,7 +102,7 @@ const HotCollections = () => {
                       <img
                         src={item.nftImage}
                         className="lazy img-fluid"
-                        alt=""
+                        aria-label="View NFT details"
                       />
                     </Link>                    
                   </div>
@@ -112,7 +112,7 @@ const HotCollections = () => {
                       <img
                         className="lazy pp-coll"
                         src={item.authorImage}
-                        alt=""
+                        aria-label="View creator profile"
                       />
                     </Link>
                     <i className="fa fa-check"></i>

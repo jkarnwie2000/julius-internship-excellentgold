@@ -75,7 +75,7 @@ const NewItem = ({ item }) => {
             <img
               src={item.nftImage}
               className="lazy nft__item_preview"
-              alt=""
+              aria-label="View creator profile"
             />
           </Link>
         </div>

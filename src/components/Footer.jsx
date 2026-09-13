@@ -9,10 +9,10 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-3 col-sm-6 col-xs-1">
             <div className="widget">
-              <h5>Marketplace</h5>
+              <h2>Marketplace</h2>
               <ul>
                 <li>
-                  <Link to="#" className="no-cursor">
+                  <Link to="#" className="no-cursor" aria-label="View all NFTs">
                     All NFTs
                   </Link>
                 </li>
@@ -46,7 +46,7 @@ const Footer = () => {
           </div>
           <div className="col-md-3 col-sm-6 col-xs-1">
             <div className="widget">
-              <h5>Resources</h5>
+              <h2>Resources</h2>
               <ul>
                 <li>
                   <Link to="#" className="no-cursor">
@@ -83,7 +83,7 @@ const Footer = () => {
           </div>
           <div className="col-md-3 col-sm-6 col-xs-1">
             <div className="widget">
-              <h5>Community</h5>
+              <h2>Community</h2>
               <ul>
                 <li>
                   <Link to="#" className="no-cursor">
@@ -120,7 +120,7 @@ const Footer = () => {
           </div>
           <div className="col-md-3 col-sm-6 col-xs-1">
             <div className="widget">
-              <h5>Newsletter</h5>
+              <h2>Newsletter</h2>
               <p>
                 Signup for our newsletter to get the latest news in your inbox.
               </p>
@@ -131,7 +131,8 @@ const Footer = () => {
                 method="post"
                 name="form_subscribe"
               >
-                <div className="col text-center">
+                <div className="col text-center">              
+                  
                   <input
                     className="form-control"
                     id="txt_subscribe"
@@ -139,7 +140,12 @@ const Footer = () => {
                     placeholder="enter your email"
                     type="text"
                   />
-                  <Link to="#" className="no-cursor" id="btn-subscribe">
+                  <Link 
+                  to="#" 
+                  className="no-cursor" 
+                  id="btn-subscribe"
+                  aria-label="Submit newsletter signup"
+                  >
                     <i className="arrow_right bg-color-secondary"></i>
                   </Link>
                   <div className="clearfix"></div>

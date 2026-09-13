@@ -79,6 +79,7 @@ const ExploreItems = () => {
   return (
     <>
       <div className="col-md-12">
+        <label htmlFor="filter-items">Sort items</label>
         <select
           id="filter-items"
           value={sort}
@@ -104,11 +105,11 @@ const ExploreItems = () => {
               <div className="nft__item">
                 <div className="author_list_pp">
                   <Link
-                    to={`/author/${item.authorId}`}
+                    to={`/author/${item.authorId}`} 
                     data-bs-toggle="tooltip"
                     data-bs-placement="top"
                   >
-                    <img className="lazy" src={item.authorImage} alt="" />
+                    <img className="lazy" src={item.authorImage} aria-label="View creator profile" />
                     <i className="fa fa-check"></i>
                   </Link>
                 </div>
@@ -132,7 +133,7 @@ const ExploreItems = () => {
 
                 <div className="nft__item_info">
                   <Link to={`/item-details/${item.nftId}`}>
-                    <h4>{item.title}</h4>
+                    <h2>{item.title}</h2>
                   </Link>
                   <div className="nft__item_price">{item.price} ETH</div>
                   <div className="nft__item_like">
