@@ -25,7 +25,7 @@ AOS.init({
       <div className="v-center">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-md-6" data-aos="fade-up">
+            <div className="col-md-6">
               <div className="spacer-single"></div>
               <h6>
                 <span className="text-uppercase id-color-2">
