@@ -3857,7 +3857,7 @@ h3 {
   margin-bottom: 25px;
 }
 
-h4 {
+h2 {
   font-size: 20px;
   margin-top: 0;
   margin-bottom: 10px;
@@ -13241,7 +13241,7 @@ a.read_more i {
   padding-bottom: 10px;
 }
 
-.nft_coll h4 {
+.nft_coll h3 {
   font-size: 16px;
   margin-bottom: 0px;
 }
@@ -13704,7 +13704,7 @@ a.read_more i {
   margin: 0;
 }
 
-.nft__item h4 {
+.nft__item h3 {
   font-weight: 800;
   font-size: 15px;
   margin-bottom: 5px;

@@ -13,6 +13,7 @@ AOS.init({
   
 
   return (
+    <main>
     <section id="section-intro" className="no-top no-bottom">
       <div className="container">
         <div className="row" data-aos="fade-out">
@@ -20,7 +21,7 @@ AOS.init({
             <div className="feature-box f-boxed style-3">
               <i className="bg-color-2 i-boxed icon_wallet" data-aos="fade-up"></i>
               <div className="text" data-aos="fade-up">
-                <h4 className="">Set up your wallet</h4>
+                <h2 className="">Set up your wallet</h2>
                 <p>
                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                   accusantium doloremque laudantium, totam rem.
@@ -33,7 +34,7 @@ AOS.init({
             <div className="feature-box f-boxed style-3">
               <i className="bg-color-2 i-boxed icon_cloud-upload_alt" data-aos="fade-up"></i>
               <div className="text" data-aos="fade-up">
-                <h4 className="">Add your NFT's</h4>
+                <h3 className="">Add your NFT's</h3>
                 <p>
                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                   accusantium doloremque laudantium, totam rem.
@@ -58,6 +59,7 @@ AOS.init({
         </div>
       </div>
     </section>
+    </main>
   );
 };
 
