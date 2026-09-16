@@ -1,4 +1,3 @@
-import NFT from "../../images/nft.png";
 import backgroundImage from "../../images/bg-shape-1.jpg";
 import { Link } from "react-router-dom";
 
@@ -36,7 +35,7 @@ const Landing = () => {
             </div>
             <div className="col-md-6">
               <img
-                src="/images/nft.png"
+                src="/images/nft.webp"
                 className="img-fluid"
                 width="800"
                 height="778"
