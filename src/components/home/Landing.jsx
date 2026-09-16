@@ -36,7 +36,7 @@ const Landing = () => {
             </div>
             <div className="col-md-6">
               <img
-                src={NFT}
+                src="/images/nft.png"
                 className="img-fluid"
                 width="800"
                 height="778"
