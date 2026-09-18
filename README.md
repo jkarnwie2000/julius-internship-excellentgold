@@ -69,5 +69,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-## Accessibility Audit Completed 
+## Successfully Completed Accessibility Audit on Website 
 Audited project with Lighthouse and axe DevTools and adjusted contrast, alt text, form labels, and focus states, to bring the accessibility score from the initial 78% to 100%, to ensure a smooth browsing experience for text readers and users.
+
+## Successfully Improved Performance of Website
+I ran performance audit and corrected the LCP element to take website performance from 83% to 95%.
